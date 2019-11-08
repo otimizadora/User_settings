@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     "git.autofetch": true,
@@ -35,26 +35,26 @@
 
     // ###### TERMINAL ######################## 
     "workbench.colorCustomizations": {
-        "terminal.background": "#1D1034",
-        "terminal.foreground": "#D9D8D8",
-        "terminalCursor.background": "#D9D8D8",
-        "terminalCursor.foreground": "#D9D8D8",
-        "terminal.ansiBlack": "#231F20",
-        "terminal.ansiBlue": "#009DDC",
-        "terminal.ansiBrightBlack": "#737171",
-        "terminal.ansiBrightBlue": "#009DDC",
-        "terminal.ansiBrightCyan": "#85CEBC",
-        "terminal.ansiBrightGreen": "#00853E",
-        "terminal.ansiBrightMagenta": "#98005D",
-        "terminal.ansiBrightRed": "#EE2E24",
-        "terminal.ansiBrightWhite": "#FFFFFF",
-        "terminal.ansiBrightYellow": "#FFD204",
-        "terminal.ansiCyan": "#85CEBC",
-        "terminal.ansiGreen": "#00853E",
-        "terminal.ansiMagenta": "#98005D",
-        "terminal.ansiRed": "#EE2E24",
-        "terminal.ansiWhite": "#D9D8D8",
-        "terminal.ansiYellow": "#FFD204",
+        "terminal.background": "#200833",
+        "terminal.foreground": "#D0D0D0",
+        "terminalCursor.background": "#D0D0D0",
+        "terminalCursor.foreground": "#d0d0d0",
+        "terminal.ansiBlack": "#151515",
+        "terminal.ansiBlue": "#6FC2EF",
+        "terminal.ansiBrightBlack": "#505050",
+        "terminal.ansiBrightBlue": "#71ACE6",
+        "terminal.ansiBrightCyan": "#F11793",
+        "terminal.ansiBrightGreen": "#00FF00",
+        "terminal.ansiBrightMagenta": "#B638D7",
+        "terminal.ansiBrightRed": "#E13554",
+        "terminal.ansiBrightWhite": "#F5F5F5",
+        "terminal.ansiBrightYellow": "#97F2BC",
+        "terminal.ansiCyan": "#FEFF00",
+        "terminal.ansiGreen": "#D592E7",
+        "terminal.ansiMagenta": "#26F1D5",
+        "terminal.ansiRed": "#B638D7",
+        "terminal.ansiWhite": "#D0D0D0",
+        "terminal.ansiYellow": "#2DD67C"
     }
     // ##########################################
 }
