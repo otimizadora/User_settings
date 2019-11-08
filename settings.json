@@ -1,0 +1,60 @@
+{
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "git.autofetch": true,
+    "editor.fontFamily": "Fira Code",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "githubPullRequests.remotes": [],
+    "workbench.activityBar.visible": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.renderIndentGuides": false,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        // stop é crt+alt+m OUTPUT
+        //"cpp": "cd /home/lele/Downloads/simulador && g++ simulador.cpp -o simulador && clear && ./simulador bin.obj"
+        //"c": "cd /home/lele/Documentos/PC/aula7/ && gcc -fopenmp 1.5.somaparcial.c -o exec && time ./exec && rm exec"
+        "c": "cd /home/lele/Git/Concorrente_TrabFinal && gcc -pthread banheiro_unissex.c -o exec && ./exec && rm exec"
+        
+    },
+    "window.menuBarVisibility": "default",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": true,
+    "git.suggestSmartCommit": false,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "editor.fontSize": 15,
+
+    // ###### TERMINAL ######################## 
+    "workbench.colorCustomizations": {
+        "terminal.background": "#1D1034",
+        "terminal.foreground": "#D9D8D8",
+        "terminalCursor.background": "#D9D8D8",
+        "terminalCursor.foreground": "#D9D8D8",
+        "terminal.ansiBlack": "#231F20",
+        "terminal.ansiBlue": "#009DDC",
+        "terminal.ansiBrightBlack": "#737171",
+        "terminal.ansiBrightBlue": "#009DDC",
+        "terminal.ansiBrightCyan": "#85CEBC",
+        "terminal.ansiBrightGreen": "#00853E",
+        "terminal.ansiBrightMagenta": "#98005D",
+        "terminal.ansiBrightRed": "#EE2E24",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBrightYellow": "#FFD204",
+        "terminal.ansiCyan": "#85CEBC",
+        "terminal.ansiGreen": "#00853E",
+        "terminal.ansiMagenta": "#98005D",
+        "terminal.ansiRed": "#EE2E24",
+        "terminal.ansiWhite": "#D9D8D8",
+        "terminal.ansiYellow": "#FFD204",
+    }
+    // ##########################################
+}

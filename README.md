@@ -1,1 +1,7 @@
-User_settings
+# My settings
+ 
+ - terminal
+
+ - vscode
+
+ - zsh
