@@ -1,9 +1,12 @@
 {
     "window.zoomLevel": 0,
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.iconTheme": "vscode-icons",
     "git.autofetch": true,
+    //###################### Firacode #######################
     "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    //########################################################
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
@@ -11,7 +14,7 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "githubPullRequests.remotes": [],
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
     "editor.renderIndentGuides": false,
