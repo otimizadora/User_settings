@@ -1,6 +1,6 @@
 {
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     "git.autofetch": true,
     "editor.fontFamily": "Fira Code",
@@ -54,7 +54,29 @@
         "terminal.ansiMagenta": "#26F1D5",
         "terminal.ansiRed": "#B638D7",
         "terminal.ansiWhite": "#D0D0D0",
-        "terminal.ansiYellow": "#2DD67C"
+        "terminal.ansiYellow": "#2DD67C",
+    // #################### My Theme ######################
+        "tab.activeBackground": "#75065d", //tab file ativa
+        "activityBar.background": "#75065d",
+        "sideBar.background": "#220430", 
+        "tab.inactiveBackground": "#3a0a46",//all tab file
+        "editor.background": "#090a20", // BG
+        "editorGroupHeader.tabsBackground": "#220430", // atras das tab files
+        "panel.background": "#550544", // barra em cima do terminal
+        "breadcrumb.background": "#550544", // barra do caminho file
+        // ### more
+        /* 
+        "sideBar.border": "#0a1822", // Originally Empty => BG
+        "sideBarSectionHeader.background": "#242729", // BG
+        "sideBarSectionHeader.border": "#224155", // BGDarker
+        "statusBar.background": "#40a84e", // BGDarker
+        "statusBar.border": "#2479b1", // Originally Empty => BG
+        "statusBar.noFolderBackground": "#242729", // BGDarker
+        "tab.border": "#242729", // BGDarker
+        
+        "titleBar.activeBackground": "#548847", // BGDark
+        "titleBar.inactiveBackground": "#163d57" //BGDarker */
     }
-    // ##########################################
+    
+    
 }
