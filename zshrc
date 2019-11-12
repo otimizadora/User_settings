@@ -112,7 +112,7 @@ SPACESHIP_PROMPT_ORDER=(
   jobs          # Background jobs indicator
   exit_code     # Exit code section
   char          # Prompt character
-  package      # Package version
+ #package      # Package version
  #node         # Node.js section - monstra a versao
   venv         # virtualenv section
 )
