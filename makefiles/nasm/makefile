@@ -21,6 +21,7 @@ LD = ld
 OBJ_DIR = obj
 
 # extensoes
+# outra para substituir varios arquivos em src := $(patsubst %.cpp, obj/%.o, $(SRC))
 SRC := $(f).asm
 OBJ := $(OBJ_DIR)/$(SRC:.asm=.o)
 EXEC := $(SRC:.asm=.out)
@@ -38,7 +39,7 @@ $(EXEC): $(OBJ) $(BIB) #o arquivo deve existir pra ser target aqui depois de ":"
 # $@ pega a origem que no lugar de um nome pra diretiva pode ser $(EXEC)
 	$(LD) -m elf_i386 -o $@ $^ 
 
-# executa e roda
+# executa e roda - USAR MAKE RUN  é case-sensitive: make run
 run: 
 	./$(EXEC)
 
@@ -46,7 +47,7 @@ run:
 $(OBJ_DIR):
 	@mkdir -p $@
 
-# apaga a pasta obj e o executavel
+# apaga a pasta obj e o executavel - USAR MAKE CLEAN é case-sensitive: make clean
 .PHONY: clean # se tiver um arquivo chamado clean nao da problema
 clean:
 	@rm -f -r $(OBJ_DIR)

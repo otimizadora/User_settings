@@ -1,9 +1,9 @@
 SRC_DIR = src
 HEADERS_DIR = include
 OBJ_DIR = obj
-COMP = g++
+CC = g++
 EXE = exe
-DIRECTIVES = -Wall -std=c++11 -I$(HEADERS_DIR)
+CFLAGS = -Wall -std=c++11 -I$(HEADERS_DIR)
 
 CPP_FILES = $(wildcard $(SRC_DIR)/*.cpp)
 # notdir tira caminho (pastas) do arquivo 
@@ -17,11 +17,11 @@ all: obj_dir compile
 
 #cria os arquivos .o
 $(OBJ_DIR)/%.o : $(SRC_DIR)/%.cpp $(HPP_FILES)
-	$(COMP) -c -o $@ $< $(DIRECTIVES)
+	$(CC) -c -o $@ $< $(CFLAGS)
 
 #junta os .o em um arquivo executavel
 compile: $(OBJ_FILES)
-	$(COMP) -o $(EXE) $^
+	$(CC) -o $(EXE) $^ $(CFLAGS)
 
 #cria a pasta para os arquivos .o caso nao exista
 obj_dir :
