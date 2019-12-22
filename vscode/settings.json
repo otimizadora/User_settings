@@ -8,14 +8,13 @@
     "editor.fontLigatures": true,
     //########################################################
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "githubPullRequests.remotes": [],
-    "workbench.activityBar.visible": false,
-    "editor.renderWhitespace": "none",
+    "workbench.activityBar.visible": true,
+    "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": false,
     "editor.renderIndentGuides": false,
     "editor.formatOnPaste": true,
@@ -26,12 +25,13 @@
         // stop é crt+alt+m OUTPUT
         //"cpp": "cd /home/lele/Downloads/simulador && g++ simulador.cpp -o simulador && clear && ./simulador bin.obj"
         //"c": "cd /home/lele/Documentos/PC/aula7/ && gcc -fopenmp 1.5.somaparcial.c -o exec && time ./exec && rm exec"
-        "c": "cd /home/lele/Git/Concorrente_TrabFinal && gcc -pthread banheiro_unissex.c -o exec && ./exec && rm exec"
+        //"c": "cd /home/lele/Documentos/PC/aula8 && gcc -pthread 3-anel.c && ./a.out "
+        "c": "make"
         
     },
     "window.menuBarVisibility": "default",
-    "workbench.statusBar.visible": false,
-    "editor.minimap.enabled": true,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
     "git.suggestSmartCommit": false,
     "terminal.integrated.shell.linux": "/bin/zsh",
     "editor.fontSize": 15,
@@ -63,7 +63,7 @@
         "activityBar.background": "#75065d",
         "sideBar.background": "#220430", 
         "tab.inactiveBackground": "#3a0a46",//all tab file
-        "editor.background": "#090a20", // BG
+        "editor.background": "#090a20", // BG cor fundo
         "editorGroupHeader.tabsBackground": "#220430", // atras das tab files
         "panel.background": "#550544", // barra em cima do terminal
         "breadcrumb.background": "#550544", // barra do caminho file
@@ -79,7 +79,10 @@
         
         "titleBar.activeBackground": "#548847", // BGDark
         "titleBar.inactiveBackground": "#163d57" //BGDarker */
-    }
+    },
+    "breadcrumbs.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "afterDelay"
     
     
 }
