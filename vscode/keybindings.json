@@ -51,7 +51,7 @@
         "command": "workbench.output.action.clearOutput"
     },
     {
-        "key": "numpad_multiply",
+        "key": "alt+numpad_multiply",
         "command": "git.showOutput"
     },
     {
@@ -77,7 +77,7 @@
         "when": "inFilesPicker && inQuickOpen"
     },
     {
-        "key": "numpad_multiply",
+        "key": "ctrl+numpad_multiply",
         "command": "workbench.files.action.focusOpenEditorsView",
         "when": "workbench.explorer.openEditorsView.active"
     },
@@ -172,5 +172,13 @@
     {
         "key": "ctrl+shift+down ctrl+shift+numpad5",
         "command": "workbench.action.openDefaultKeybindingsFile"
+    },
+    {
+        "key": "ctrl+numpad_multiply ctrl+numpad_multiply",
+        "command": "eslint.showOutputChannel"
+    },
+    {
+        "key": "ctrl+f9",
+        "command": "editor.action.openLink"
     }
 ]
