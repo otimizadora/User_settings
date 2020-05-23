@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "vscode-icons",
     "git.autofetch": true,
@@ -7,8 +7,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     //########################################################
-    "[javascript]": {
-    },
+    "[javascript]": {},
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
@@ -27,15 +26,13 @@
         //"c": "cd /home/lele/Documentos/PC/aula7/ && gcc -fopenmp 1.5.somaparcial.c -o exec && time ./exec && rm exec"
         //"c": "cd /home/lele/Documentos/PC/aula8 && gcc -pthread 3-anel.c && ./a.out "
         "c": "make"
-        
     },
     "window.menuBarVisibility": "default",
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false,
     "editor.minimap.enabled": false,
     "git.suggestSmartCommit": false,
     "terminal.integrated.shell.linux": "/bin/zsh",
     "editor.fontSize": 15,
-
     // ###### TERMINAL ######################## 
     "workbench.colorCustomizations": {
         "terminal.background": "#200833",
@@ -58,11 +55,11 @@
         "terminal.ansiRed": "#B638D7",
         "terminal.ansiWhite": "#D0D0D0",
         "terminal.ansiYellow": "#2DD67C",
-    // #################### My Theme ######################
+        // #################### My Theme ######################
         "tab.activeBackground": "#75065d", //tab file ativa
         "activityBar.background": "#75065d",
-        "sideBar.background": "#220430", 
-        "tab.inactiveBackground": "#3a0a46",//all tab file
+        "sideBar.background": "#220430",
+        "tab.inactiveBackground": "#3a0a46", //all tab file
         "editor.background": "#090a20", // BG cor fundo
         "editorGroupHeader.tabsBackground": "#220430", // atras das tab files
         "panel.background": "#550544", // barra em cima do terminal
@@ -81,8 +78,24 @@
         "titleBar.inactiveBackground": "#163d57" //BGDarker */
     },
     "breadcrumbs.enabled": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "files.autoSave": "afterDelay"
-    
-    
+    //"editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "off",
+    //ruby
+    "ruby.useBundler": true, //run non-lint commands with bundle exec
+    "ruby.useLanguageServer": false, // use the internal language server (see below)
+    "ruby.lint": {
+        "rubocop": {
+            "useBundler": true // enable rubocop via bundler
+        },
+        "reek": {
+            "useBundler": true // enable reek via bundler
+        }
+    },
+    "ruby.format": "rubocop",
+    "[ruby]": {
+        "editor.defaultFormatter": "rebornix.ruby"
+    },
+    "discord.state": "Codando...",
+    "discord.showElapsedTime": false,
+    "discord.details": "Codar é bom!!!"
 }
