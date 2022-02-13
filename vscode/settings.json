@@ -1,4 +1,6 @@
 {
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
     "window.zoomLevel": 1,
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "vscode-icons",
@@ -97,5 +99,6 @@
     },
     "discord.state": "Codando...",
     "discord.showElapsedTime": false,
-    "discord.details": "Codar é bom!!!"
+    "discord.details": "Codar é bom!!!",
+    "python.formatting.provider": "yapf"
 }
