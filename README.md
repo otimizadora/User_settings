@@ -2,7 +2,7 @@
  
  - terminal
 
- - vscode
+ - vscode pink with purple
 
  - zsh
 
