@@ -1,7 +1,6 @@
 {
     "powermode.enabled": true,
     "powermode.presets": "flames",
-    "window.zoomLevel": 1,
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "vscode-icons",
     "git.autofetch": true,
@@ -14,26 +13,23 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "githubPullRequests.remotes": [],
-    "workbench.activityBar.visible": true,
     "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": false,
-    "editor.renderIndentGuides": false,
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "code-runner.runInTerminal": true,
+    "code-runner.defaultLanguage": "c",
     "code-runner.executorMap": {
         // stop é crt+alt+m OUTPUT
         //"cpp": "cd /home/lele/Downloads/simulador && g++ simulador.cpp -o simulador && clear && ./simulador bin.obj"
         //"c": "cd /home/lele/Documentos/PC/aula7/ && gcc -fopenmp 1.5.somaparcial.c -o exec && time ./exec && rm exec"
         //"c": "cd /home/lele/Documentos/PC/aula8 && gcc -pthread 3-anel.c && ./a.out "
-        "c": "make"
+        //"python": "python3 -u "
+        "c": "make &&" 
     },
     "window.menuBarVisibility": "default",
-    "workbench.statusBar.visible": false,
-    "editor.minimap.enabled": false,
     "git.suggestSmartCommit": false,
-    "terminal.integrated.shell.linux": "/bin/zsh",
+    //"terminal.integrated.shell.linux": "/bin/zsh",
     "editor.fontSize": 15,
     // ###### TERMINAL ######################## 
     "workbench.colorCustomizations": {
@@ -80,8 +76,6 @@
         "titleBar.inactiveBackground": "#163d57" //BGDarker */
     },
     "breadcrumbs.enabled": true,
-    //"editor.defaultFormatter": "esbenp.prettier-vscode",
-    "files.autoSave": "off",
     //ruby
     "ruby.useBundler": true, //run non-lint commands with bundle exec
     "ruby.useLanguageServer": false, // use the internal language server (see below)
@@ -100,5 +94,22 @@
     "discord.state": "Codando...",
     "discord.showElapsedTime": false,
     "discord.details": "Codar é divertido!!!",
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "yapf",
+    "editor.renderControlCharacters": false,
+    "editor.guides.indentation": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.shake.enabled": false,
+    "powermode.combo.timerEnabled": "hide",
+    "window.zoomLevel": 1,
 }
