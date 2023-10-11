@@ -31,10 +31,6 @@
         "when": "isDevelopment"
     },
     {
-        "key": "alt+numpad0",
-        "command": "code-runner.run"
-    },
-    {
         "key": "ctrl+alt+n",
         "command": "-code-runner.run"
     },
@@ -87,7 +83,7 @@
         "when": "workbench.explorer.openEditorsView.active"
     },
     {
-        "key": "ctrl+numpad6",
+        "key": "alt+numpad6",
         "command": "workbench.view.scm"
     },
     {
@@ -143,11 +139,6 @@
         "command": "workbench.explorer.fileView.focus"
     },
     {
-        "key": "ctrl+numpad5 ctrl+numpad2",
-        "command": "workbench.action.terminal.openNativeConsole",
-        "when": "!terminalFocus"
-    },
-    {
         "key": "ctrl+shift+c",
         "command": "-workbench.action.terminal.openNativeConsole",
         "when": "!terminalFocus"
@@ -180,5 +171,53 @@
     {
         "key": "ctrl+f9",
         "command": "editor.action.openLink"
+    },
+    {
+        "key": "ctrl+numpad5",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-code-runner.runCustomCommand"
+    },
+    {
+        "key": "alt+numpad0",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+numpad0",
+        "command": "-workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-bookmarks.jumpToNext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+numpad0",
+        "command": "bookmarks.clear"
+    },
+    {
+        "key": "ctrl+numpad6",
+        "command": "bookmarks.jumpToNext"
+    },
+    {
+        "key": "ctrl+numpad4",
+        "command": "bookmarks.jumpToPrevious"
+    },
+    {
+        "key": "ctrl+alt+numpad0",
+        "command": "bookmarks.clearFromAllFiles"
     }
 ]
