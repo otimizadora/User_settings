@@ -35,10 +35,6 @@
         "command": "-code-runner.run"
     },
     {
-        "key": "ctrl+numpad2",
-        "command": "workbench.action.output.toggleOutput"
-    },
-    {
         "key": "ctrl+k ctrl+h",
         "command": "-workbench.action.output.toggleOutput"
     },
@@ -53,10 +49,6 @@
     {
         "key": "ctrl+numpad1",
         "command": "workbench.action.openSettingsJson"
-    },
-    {
-        "key": "ctrl+numpad3",
-        "command": "workbench.view.explorer"
     },
     {
         "key": "ctrl+shift+e",
@@ -83,7 +75,7 @@
         "when": "workbench.explorer.openEditorsView.active"
     },
     {
-        "key": "alt+numpad6",
+        "key": "ctrl+shift+g",
         "command": "workbench.view.scm"
     },
     {
@@ -107,7 +99,7 @@
         "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "alt+numpad3",
+        "key": "alt+numpad6",
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
@@ -135,16 +127,12 @@
         "command": "workbench.action.toggleMaximizedPanel"
     },
     {
-        "key": "ctrl+numpad9",
-        "command": "workbench.explorer.fileView.focus"
-    },
-    {
         "key": "ctrl+shift+c",
         "command": "-workbench.action.terminal.openNativeConsole",
         "when": "!terminalFocus"
     },
     {
-        "key": "ctrl+numpad2 alt+numpad2",
+        "key": "alt+numpad8",
         "command": "workbench.action.toggleStatusbarVisibility"
     },
     {
@@ -157,7 +145,7 @@
         "when": "inFilesPicker && inQuickOpen"
     },
     {
-        "key": "ctrl+shift+numpad5 ctrl+shift+right",
+        "key": "ctrl+numpad2",
         "command": "workbench.action.openGlobalKeybindingsFile"
     },
     {
@@ -219,5 +207,25 @@
     {
         "key": "ctrl+alt+numpad0",
         "command": "bookmarks.clearFromAllFiles"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+numpad9",
+        "command": "extension.changeCase.constant"
+    },
+    {
+        "key": "ctrl+numpad8",
+        "command": "extension.changeCase.lower"
+    },
+    {
+        "key": "ctrl+numpad7",
+        "command": "extension.changeCase.snake"
+    },
+    {
+        "key": "alt+numpad3",
+        "command": "workbench.action.output.toggleOutput"
     }
 ]
