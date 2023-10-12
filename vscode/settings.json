@@ -6,7 +6,7 @@
     "git.autofetch": true,
     //###################### Firacode #######################
     "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": true, // muda ligaduras: == != >= =>
     //########################################################
     "[javascript]": {},
     "[cpp]": {
@@ -111,5 +111,8 @@
     "powermode.combo.counterEnabled": "hide",
     "powermode.shake.enabled": false,
     "powermode.combo.timerEnabled": "hide",
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
     "window.zoomLevel": 1,
+    "security.workspace.trust.untrustedFiles": "open",
 }
