@@ -84,9 +84,12 @@
         "sideBarSectionHeader.background": "#550544", // BG
         "sideBarSectionHeader.border": "#6a00ff", // BGDarker
         "bookmarks.lineBackground": "#0d00ff32",
-        
+        "editor.lineHighlightBackground": "#22222200", // remove cor cursor do mouse
+        "editor.lineHighlightBorder": "#22222200", // remove borda cursor do mouse
+        "editor.selectionBackground": "#222222f4", // selecao do cursor do mouse
         // ### more
         /* 
+        "editor.selectionHighlightBackground": "#666", // outras selecoes iguais do cursor do mouse
         "statusBar.background": "#40a84e", // BGDarker
         "statusBar.noFolderBackground": "#242729", // BGDarker
         "titleBar.activeBackground": "#548847", // BGDark
