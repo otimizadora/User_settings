@@ -13,7 +13,6 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "githubPullRequests.remotes": [],
-    "editor.renderWhitespace": "all",
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
@@ -54,28 +53,45 @@
         "terminal.ansiWhite": "#D0D0D0",
         "terminal.ansiYellow": "#2DD67C",
         // #################### My Theme ######################
-        "tab.activeBackground": "#75065d", //tab file ativa
+        "tab.activeBackground": "#090a20", //tab file ativa
+        "tab.activeForeground": "#00ffff",
         "activityBar.background": "#75065d",
+        "activityBar.activeBorder": "#ff00ff",
+        "activityBarBadge.background": "#6a00ff",
+        "activityBarBadge.foreground": "#00ffff",
+        "activityBar.inactiveForeground": "#090a20",
+        "activityBar.activeBackground": "#090a20",
+        "activityBar.foreground": "#00ffffe4",
         "sideBar.background": "#220430",
-        "tab.inactiveBackground": "#3a0a46", //all tab file
+        "tab.inactiveBackground": "#090a20", //all tab file
         "editor.background": "#090a20", // BG cor fundo
         "editorGroupHeader.tabsBackground": "#220430", // atras das tab files
-        "panel.background": "#550544", // barra em cima do terminal
+        "panel.background": "#090a20", // barra em cima do terminal
+        "panel.border": "#6a00ff",
+        "panelTitle.activeBorder": "#ff00ff",
         "breadcrumb.background": "#550544", // barra do caminho file
+        "breadcrumbPicker.background": "#220430",
+        "tab.activeBorder": "#ff00ff",
+        "tab.activeBorderTop": "#ff00ff",
+        "tab.border": "#6a00ff", // BGDarker
+        "activityBar.border": "#6a00ff",
+        "sideBar.border": "#6a00ff", // Originally Empty => BG
+        "statusBar.border": "#6a00ff", // Originally Empty => BG
+        "tab.hoverBorder": "#00ffff",
+        "tab.hoverForeground": "#00ffff",
+        "panelTitle.inactiveForeground": "#B638D7",
+        "panelTitle.activeForeground": "#00ffffe4",
+        "sideBarSectionHeader.background": "#550544", // BG
+        "sideBarSectionHeader.border": "#6a00ff", // BGDarker
+        "bookmarks.lineBackground": "#0d00ff32",
+        
         // ### more
         /* 
-        "sideBar.border": "#0a1822", // Originally Empty => BG
-        "sideBarSectionHeader.background": "#242729", // BG
-        "sideBarSectionHeader.border": "#224155", // BGDarker
         "statusBar.background": "#40a84e", // BGDarker
-        "statusBar.border": "#2479b1", // Originally Empty => BG
         "statusBar.noFolderBackground": "#242729", // BGDarker
-        "tab.border": "#242729", // BGDarker
-        
         "titleBar.activeBackground": "#548847", // BGDark
         "titleBar.inactiveBackground": "#163d57" //BGDarker */
     },
-    "breadcrumbs.enabled": true,
     //ruby
     "ruby.useBundler": true, //run non-lint commands with bundle exec
     "ruby.useLanguageServer": false, // use the internal language server (see below)
@@ -115,4 +131,6 @@
     "dart.debugSdkLibraries": false,
     "window.zoomLevel": 1,
     "security.workspace.trust.untrustedFiles": "open",
+    "workbench.list.horizontalScrolling": true,
+    "breadcrumbs.enabled": false,
 }
