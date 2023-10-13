@@ -227,5 +227,17 @@
     {
         "key": "alt+numpad3",
         "command": "workbench.action.output.toggleOutput"
+    },
+    {
+        "key": "alt+numpad5",
+        "command": "bookmarks.listFromAllFiles"
+    },
+    {
+        "key": "alt+numpad4",
+        "command": "bookmarksExplorer.focus"
+    },
+    {
+        "key": "ctrl+alt+numpad7",
+        "command": "breadcrumbs.toggle"
     }
 ]
