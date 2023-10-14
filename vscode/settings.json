@@ -90,7 +90,7 @@
         "list.errorForeground": "#e60000", // nome do arquivo com erro
         "list.warningForeground": "#e6e600", // nome do arquivo com warning
         "list.hoverForeground": "#00ffff", // passa mouse em cima
-        "list.hoverBackground": "#5d0a847d", // passa mouse em cima
+        "list.hoverBackground": "#d828cf51", // passa mouse em cima
         "list.focusHighlightForeground": "#00ffffe4", // selection dentro da pesquisa do codigo
         "list.highlightForeground": "#ff00ff", // palavra pesquisada dentro do codigo
         "statusBar.border": "#6a00ff", // Originally Empty => BG
@@ -108,6 +108,7 @@
         "button.secondaryBackground": "#56169fd9",
         "dropdown.background": "#43075f",
         "dropdown.border": "#6a00ff",
+        "editorSuggestWidget.selectedIconForeground": "#ccff33",
         "toolbar.hoverOutline": "#ff00ff",
         "editorHoverWidget.background": "#035365", // mensagens passa mouse em cima
         "editorSuggestWidget.border": "#ff00ff", // sugestoes de codigo
