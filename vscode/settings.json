@@ -110,10 +110,11 @@
         "dropdown.background": "#43075f",
         "dropdown.border": "#6a00ff",
         "editorSuggestWidget.selectedIconForeground": "#ccff33",
+        "editorSuggestWidget.focusHighlightForeground": "#00ffff",
         "toolbar.hoverOutline": "#ff00ff",
         "editorHoverWidget.background": "#035365", // mensagens passa mouse em cima
         "editorSuggestWidget.border": "#ff00ff", // sugestoes de codigo
-        "editorSuggestWidget.background": "#281b68",
+        "editorSuggestWidget.background": "#43367f",
         "editorSuggestWidget.foreground": "#e8c1f9",
         "editorSuggestWidget.selectedBackground": "#06fff333", // selecionar nas sugestoes de codigo
         // ### more
