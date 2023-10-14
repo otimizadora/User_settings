@@ -119,7 +119,10 @@
         "editorSuggestWidget.selectedBackground": "#06fff333", // selecionar nas sugestoes de codigo
         "quickInput.background": "#43367f", // janela suspensa de troca de tab
         "quickInput.foreground": "#e8c1f9",
-        
+        "editorLineNumber.foreground": "#e8c1f961", // lateral de nums de linha
+        "editorLineNumber.activeForeground": "#ff00ff",
+        "editorWidget.background": "#43367f", // ctrl+f e caixa de avisos 
+        "editorWidget.border": "#6a00ff",
         // ### more
         /*
         "editor.lineHighlightBackground": "#22222200", // cor cursor do mouse
@@ -173,4 +176,5 @@
     "window.zoomLevel": 1,
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.list.horizontalScrolling": true,
+    "breadcrumbs.enabled": false,
 }
