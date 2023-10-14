@@ -85,7 +85,8 @@
         "sideBarSectionHeader.background": "#550544", // BG
         "sideBarSectionHeader.border": "#6a00ff", // BGDarker
         "list.inactiveSelectionBackground": "#5d0a847d", // item selecionado
-        "list.focusAndSelectionOutline": "#00ffff",
+        "list.focusAndSelectionOutline": "#00ffff", // quando clica no arquivo
+        "list.activeSelectionBackground": "#090a20", // quando clica no arquivo
         "list.inactiveFocusOutline": "#ff00ff", // linha da seleção de item
         "list.errorForeground": "#e60000", // nome do arquivo com erro
         "list.warningForeground": "#e6e600", // nome do arquivo com warning
