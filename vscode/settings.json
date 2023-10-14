@@ -53,8 +53,6 @@
         "terminal.ansiWhite": "#D0D0D0",
         "terminal.ansiYellow": "#2DD67C",
         // #################### My Theme ######################
-        "tab.activeBackground": "#090a20", //tab file ativa
-        "tab.activeForeground": "#00ffff",
         "activityBar.background": "#75065d",
         "activityBar.activeBorder": "#ff00ff",
         "activityBarBadge.background": "#6a00ff",
@@ -62,8 +60,6 @@
         "activityBar.inactiveForeground": "#090a20",
         "activityBar.activeBackground": "#090a20",
         "activityBar.foreground": "#00ffffe4",
-        "sideBar.background": "#220430",
-        "tab.inactiveBackground": "#090a20", //all tab file
         "editor.background": "#090a20", // BG cor fundo
         "editorGroupHeader.tabsBackground": "#220430", // atras das tab files
         "panel.background": "#090a20", // barra em cima do terminal
@@ -71,29 +67,64 @@
         "panelTitle.activeBorder": "#ff00ff",
         "breadcrumb.background": "#550544", // barra do caminho file
         "breadcrumbPicker.background": "#220430",
+        "tab.inactiveBackground": "#090a20", //all tab file
+        "tab.activeForeground": "#00ffff",
+        "tab.activeBackground": "#090a20", //tab file ativa
         "tab.activeBorder": "#ff00ff",
         "tab.activeBorderTop": "#ff00ff",
         "tab.border": "#6a00ff", // BGDarker
-        "activityBar.border": "#6a00ff",
-        "sideBar.border": "#6a00ff", // Originally Empty => BG
-        "statusBar.border": "#6a00ff", // Originally Empty => BG
+        "tab.hoverBackground": "#5d0a847d", // tab passa mouse em cima
         "tab.hoverBorder": "#00ffff",
         "tab.hoverForeground": "#00ffff",
+        "activityBar.border": "#6a00ff",
         "panelTitle.inactiveForeground": "#B638D7",
         "panelTitle.activeForeground": "#00ffffe4",
+        "sideBar.background": "#220430", // menu de arquivos
+        "sideBar.border": "#6a00ff", // Originally Empty => BG
+        "sideBarTitle.foreground": "#00ffffe4",
         "sideBarSectionHeader.background": "#550544", // BG
         "sideBarSectionHeader.border": "#6a00ff", // BGDarker
-        "bookmarks.lineBackground": "#0d00ff32",
+        "list.inactiveSelectionBackground": "#5d0a847d", // item selecionado
+        "list.focusAndSelectionOutline": "#00ffff",
+        "list.inactiveFocusOutline": "#ff00ff", // linha da seleção de item
+        "list.errorForeground": "#e60000", // nome do arquivo com erro
+        "list.warningForeground": "#e6e600", // nome do arquivo com warning
+        "list.hoverForeground": "#00ffff", // passa mouse em cima
+        "list.hoverBackground": "#5d0a847d", // passa mouse em cima
+        "list.focusHighlightForeground": "#00ffffe4", // selection dentro da pesquisa do codigo
+        "list.highlightForeground": "#ff00ff", // palavra pesquisada dentro do codigo
+        "statusBar.border": "#6a00ff", // Originally Empty => BG
+        "statusBar.background": "#0f2c33",
+        "statusBar.foreground": "#00ffffe4",
+        "statusBarItem.remoteBackground": "#6a00ff", 
+        "statusBarItem.hoverBackground": "#090a20",
+        "statusBarItem.hoverForeground": "#ff00ff",
+        "badge.background": "#6a00ffc0", // bolinhas redondas com numeros
+        "badge.foreground": "#00ffff", // numeros das bolinhas redondas
+        "input.background": "#43075f", // barra de pesquisa
+        "input.foreground": "#dda1f7", // texto da barra de pesquisa
+        "selection.background": "#090a20", // selecionar na barra de pesquisa
+        "button.background": "#991b7e",
+        "button.secondaryBackground": "#56169fd9",
+        "dropdown.background": "#43075f",
+        "dropdown.border": "#6a00ff",
+        "toolbar.hoverOutline": "#ff00ff",
+        "editorHoverWidget.background": "#035365", // mensagens passa mouse em cima
+        "editorSuggestWidget.border": "#ff00ff", // sugestoes de codigo
+        "editorSuggestWidget.background": "#281b68",
+        "editorSuggestWidget.foreground": "#e8c1f9",
+        "editorSuggestWidget.selectedBackground": "#06fff333", // selecionar nas sugestoes de codigo
         // ### more
         /* 
         "editor.lineHighlightBackground": "#22222200", // cor cursor do mouse
         "editor.lineHighlightBorder": "#22222200", // borda cursor do mouse
         "editor.selectionHighlightBackground": "#666", // outras selecoes iguais do cursor do mouse
-        "statusBar.background": "#40a84e", // BGDarker
-        "statusBar.noFolderBackground": "#242729", // BGDarker
+        "statusBar.background": "#090a20", // BGDarker
+        "statusBar.noFolderBackground": "#0afc0a", // BGDarker
         "titleBar.activeBackground": "#548847", // BGDark
         "titleBar.inactiveBackground": "#163d57" //BGDarker */
-        "editor.selectionBackground": "#222222f4", // selecao do cursor do mouse
+        "bookmarks.lineBackground": "#0d00ff32",
+        "editor.selectionBackground": "#5d0a847d", // selecao do cursor do mouse
     },
     "editor.renderLineHighlight": "none", // remove selecao fixa de cursor do mouse na linha
     //ruby
@@ -136,5 +167,4 @@
     "window.zoomLevel": 1,
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.list.horizontalScrolling": true,
-    "breadcrumbs.enabled": false,
 }
